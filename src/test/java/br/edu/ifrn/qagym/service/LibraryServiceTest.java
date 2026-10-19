@@ -79,6 +79,5 @@ class LibraryServiceTest {
         List<Book> livrosRetornados = service.findBooksByAuthor(author);
 
         assertEquals(livrosEsperados, livrosRetornados);
-
     }
 }
